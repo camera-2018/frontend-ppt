@@ -1,0 +1,46 @@
+#title {
+    color: blue;
+    text-align: center;
+}
+
+.main_title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.input_section {
+    display: flex;
+    gap: 5px;
+    padding: 10px;
+}
+
+
+input {
+    border: 1px solid #ccc;
+    padding: 8px;
+    border-radius: 4px;
+    flex: 1;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+    border: 1px solid #ddd;
+}
+
+li {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #eee;
+    
+}
